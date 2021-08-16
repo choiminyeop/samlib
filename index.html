@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet"href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo"><img src="images/spc-samlip-logo-new-65.png" alt=""></h1>
+        <ul class="nav-links">
+            <li><a href="#" class="active">COMPANY</a></li>
+            <li><a href="#">BUSINESS</a></li>
+            <li><a href="#">BRAND</a></li>
+            <li><a href="#">RECRUIT</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+        <img src="images/menu-btn.png" alt="menu" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h1>GOOD FOOD & HAPPY LIFE</h1>
+            <div class="line"></div>
+            <h2>좋은 음식과 서비스를 통해 더 가치 있고
+                건강한 삶을 만들어 갑니다
+            </h2>
+        </div>
+    </header>
+
+    
+    
+
+    
+
+
+    <!-- Events -->
+    <section class="events">
+        <div class="title">
+            <h1>News & Notice</h1>
+            <p>언제나 행복한 기업, SPC삼립의 새로운 소식</p>
+        </div>
+        <div class="row">
+            <div class="col event-content">
+                <img src="images/img1.png" alt="event1">
+                <h1>SPC삼립, 'ESG위원회' 신설</h1>
+                <p>2021년 8월 4일</p>
+                <a href="#" class="ctn">더보기</a>
+            </div>
+            <div class="col event-content">
+                <img src="images/img2.png" alt="event2">
+                <h1>SPC삼립, 휴가시즌맞이 리뉴얼 진행</h1>
+                <p>2021년 7월 30일</p>
+                <a href="#" class="ctn">더보기</a>
+            </div>
+        </div>
+    </section>
+
+    <div>
+        <!-- <div class="explore-content">
+            <h1 data-aos="fade-right">Good bread</h1>
+            <p data-aos="fade-up" data-aos-duration="1500">우리만의 기술과 경험, 노하우로 제빵산업의 내일을 엽니다</p>
+        </div> -->
+        <div class="swiper-container mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="breadimg">
+                        <div class="explore-content">
+                        <h1 data-aos="fade-right">Good bread</h1>
+                        <p data-aos="fade-up" data-aos-duration="1500">우리만의 기술과 경험, 노하우로 제빵산업의 내일을 엽니다</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="cake">
+                        <div class="explore-content">
+                        <h1 data-aos="fade-right" class="sweet">Sweet dessert</h1>
+                        <p data-aos="fade-up" data-aos-duration="1500">소비자의 취향에 맞는 디저트 문화를 제안합니다</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="fresh">
+                        <div class="explore-content">
+                        <h1 data-aos="fade-right" class="deli">Fresh Deli</h1>
+                        <p data-aos="fade-up" data-aos-duration="1500">최첨단 시스템으로 소비자의 식탁에 신선한 제품을 전달합니다</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="food">
+                        <div class="explore-content">
+                        <h1 data-aos="fade-right" class="tasty">Tasty Food</h1>
+                        <p data-aos="fade-up" data-aos-duration="1500">맛과 건강을 생각한 음식으로 맛있는 푸드 스토리를 만듭니다</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+    </div>
+
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>NOW @ instagram</h1>
+                <p>보고, 공유하고, 저장하고 싶은 군침도는 컨텐츠,SPC삼립 인스타그램
+                </p>
+                <a href="#" class="ctn">팔로우하기</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="images/img3.png" alt="">
+                    <img src="images/img4.png" alt="">
+                    <img src="images/img5.png" alt="">
+                    <img src="images/img6.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>123 fifth Avenue, NY 10160, New York, USA | phone:800-123-456 | Email:contact@naver.com</p>
+        <p>Copyright 2020 Outdoor Adventure</p>
+    </footer>
+
+    
+
+    <script>
+        const menuBtn=document.querySelector('.menu-btn');
+        const navlinks=document.querySelector('.nav-links');
+
+        menuBtn.addEventListener('click', ()=>{
+            navlinks.classList.toggle('mobile-menu')
+        });
+        
+    </script>
+    <script>
+        AOS.init();
+    </script>
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper(".mySwiper", {
+        navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+        },
+    });
+    </script>
+</body>
+</html>
