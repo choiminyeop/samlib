@@ -2,6 +2,8 @@
 
 html, body{
     font-family: 'Noto Sans KR', sans-serif;
+    scroll-behavior: smooth;
+    color: #181818;
 }
 
 *{
@@ -296,7 +298,7 @@ section{
 .content-col h1{
     font-size: 7vmin;
     line-height: 70px;
-    color: #da2e80;
+    color: #181818;
 }
 
 .content-col p{
@@ -311,9 +313,11 @@ footer{
     height: 200px;
     padding: 20px 80px;
     margin: 0;
-    background: #484872;
+    background: #555555;
     text-align: center;
+    font-weight: 200;
 }
+
 
 
 footer p{
